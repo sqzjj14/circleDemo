@@ -15,6 +15,7 @@
 		501A98621D7900A900B428E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 501A98601D7900A900B428E5 /* LaunchScreen.storyboard */; };
 		501A986D1D7900A900B428E5 /* circleDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 501A986C1D7900A900B428E5 /* circleDemoTests.m */; };
 		501A98781D7900A900B428E5 /* circleDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 501A98771D7900A900B428E5 /* circleDemoUITests.m */; };
+		501A98871D7900CC00B428E5 /* RecordingCircleOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 501A98861D7900CC00B428E5 /* RecordingCircleOverlayView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		501A98731D7900A900B428E5 /* circleDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = circleDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		501A98771D7900A900B428E5 /* circleDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = circleDemoUITests.m; sourceTree = "<group>"; };
 		501A98791D7900A900B428E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		501A98851D7900CC00B428E5 /* RecordingCircleOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordingCircleOverlayView.h; sourceTree = "<group>"; };
+		501A98861D7900CC00B428E5 /* RecordingCircleOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordingCircleOverlayView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				501A98561D7900A900B428E5 /* AppDelegate.m */,
 				501A98581D7900A900B428E5 /* ViewController.h */,
 				501A98591D7900A900B428E5 /* ViewController.m */,
+				501A98851D7900CC00B428E5 /* RecordingCircleOverlayView.h */,
+				501A98861D7900CC00B428E5 /* RecordingCircleOverlayView.m */,
 				501A985B1D7900A900B428E5 /* Main.storyboard */,
 				501A985E1D7900A900B428E5 /* Assets.xcassets */,
 				501A98601D7900A900B428E5 /* LaunchScreen.storyboard */,
@@ -273,6 +278,7 @@
 				501A985A1D7900A900B428E5 /* ViewController.m in Sources */,
 				501A98571D7900A900B428E5 /* AppDelegate.m in Sources */,
 				501A98541D7900A900B428E5 /* main.m in Sources */,
+				501A98871D7900CC00B428E5 /* RecordingCircleOverlayView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
